@@ -1,0 +1,33 @@
+/* Global styles */
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #111714;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #29382f;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #36e27b;
+}
+
+.admin-scroll ::-webkit-scrollbar-thumb {
+    background: #544e3b;
+}
+
+.admin-scroll ::-webkit-scrollbar-thumb:hover {
+    background: #f2b90d;
+}
